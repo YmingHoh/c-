@@ -5,7 +5,7 @@ pipeline {
       parallel {
         stage('Buld') {
           steps {
-            sh 'g++ -Wall Buritto.cpp main.cpp -o bur'
+            sh 'g++ -Wall Burrito.cpp main.cpp -o bur'
             echo 'Compiled'
           }
         }
