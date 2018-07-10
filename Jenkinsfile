@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'g++ -Wall Burrito.cpp main.cpp -o bur'
+        sh 'g++ -Wall program3.cpp -o bir'
         echo 'Compiled'
       }
     }
