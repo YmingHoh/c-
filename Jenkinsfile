@@ -14,7 +14,7 @@ pipeline {
     }
     stage('Deliver') {
       steps {
-        echo 'Done'
+        echo 'Done done done done'
       }
     }
   }
