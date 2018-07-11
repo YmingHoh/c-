@@ -14,7 +14,7 @@ pipeline {
     }
     stage('Deliver') {
       steps {
-        echo 'Done done done done'
+        echo 'Done rösen'
       }
     }
   }
