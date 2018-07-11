@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'g++ -Wall program3.cpp -o bir'
+        sh 'g++ -Wall skriva1.cpp -o byr'
         echo 'Compiled'
       }
     }
