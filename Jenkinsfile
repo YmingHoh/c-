@@ -9,7 +9,7 @@ pipeline {
     }
     stage('Test') {
       steps {
-        sh './bir'
+        sh './byr'
       }
     }
     stage('Deliver') {
